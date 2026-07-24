@@ -1,0 +1,17 @@
+{
+  "name": "open-graph-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot (@Open_GraphBot) that generates Open Graph preview images, inspects existing OG tags on any URL, and exports ready-to-use meta tag snippets.",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": { "node": ">=18.0.0" },
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
